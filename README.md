@@ -22,3 +22,7 @@ A mod revolving around vtuber AnniePants02 - the best pink paranoid doggo vtuber
 - groube - YSM Jane Doe ZZZ model and animations (under CC BY-NC-SA 4.0)
 - jschlatt - schlatt block texture and sound
 - Viper4K - making this mod
+
+# License
+This mod is under CC BY-NC-SA 4.0 license
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en

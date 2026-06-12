@@ -1,0 +1,2833 @@
+{
+  "mod_elements": [
+    {
+      "name": "AnniePlushEnemy",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_plush_enemy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/annie_plush_enemy_spawn_egg.json",
+          "src/main/java/net/mcreator/anniepantsmod/entity/AnniePlushEnemyEntity.java",
+          "src/main/resources/data/anniepantsmod/neoforge/biome_modifier/annie_plush_enemy_biome_modifier.json",
+          "src/main/java/net/mcreator/anniepantsmod/entity/model/AnniePlushEnemyModel.java",
+          "src/main/java/net/mcreator/anniepantsmod/client/renderer/AnniePlushEnemyRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "AnniePlushBlock",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_plush_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/block/model/AnniePlushBlockDisplayModel.java",
+          "src/main/resources/assets/anniepantsmod/models/custom/annie_plush_block_particle.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/renderer/AnniePlushBlockTileRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/renderer/AnniePlushBlockDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/AnniePlushBlockBlock.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/entity/AnniePlushBlockTileEntity.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/display/AnniePlushBlockDisplayItem.java",
+          "src/main/resources/assets/anniepantsmod/blockstates/annie_plush_block.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/model/AnniePlushBlockBlockModel.java",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_plush_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePantsIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_pants_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/AnniePantsIconItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_pants_icon.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AnniePaintingDrink",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_drink",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_drink.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingDuo",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_duo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_duo.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingPortrait",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_portrait",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_portrait.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingPromo",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_promo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_promo.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingTechno",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_techno",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_techno.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePlushEnemyEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_plush_enemy_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/AnniePlushEnemyEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnniePlushEnemyOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_plush_enemy_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/AnniePlushEnemyOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnniePlushDrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_plush_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/AnniePlushDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnniePlushBlockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_plush_block_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/AnniePlushBlockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingParanoid",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_paranoid",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_paranoid.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingGlitch",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_glitch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_glitch.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingVampire",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_vampire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_vampire.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingBooze",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_booze",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_booze.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingMischevious",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_mischevious",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_mischevious.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingLook",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_look",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_look.json"
+        ]
+      }
+    },
+    {
+      "name": "ShadowTheHedgehogArmorSetBonus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_the_hedgehog_armor_set_bonus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/ShadowTheHedgehogArmorSetBonusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShadowTheHedgehogArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shadow_the_hedgehog_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/shadow_the_hedgehog_armor_leggings.json",
+          "src/main/resources/assets/anniepantsmod/models/item/shadow_the_hedgehog_armor_boots.json",
+          "src/main/resources/assets/anniepantsmod/models/item/shadow_the_hedgehog_armor_chestplate.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/ShadowTheHedgehogArmorItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/shadow_the_hedgehog_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieShadowRecipeHelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_shadow_recipe_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_shadow_recipe_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieShadowRecipeChestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_shadow_recipe_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_shadow_recipe_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieShadowRecipeLeggings",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_shadow_recipe_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_shadow_recipe_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieShadowRecipeBoots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_shadow_recipe_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_shadow_recipe_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieASMRRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_asmr_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_asmr_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChosoTotem",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choso_totem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/choso_totem.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/renderer/ChosoTotemItemRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/item/ChosoTotemItem.java",
+          "src/main/java/net/mcreator/anniepantsmod/item/model/ChosoTotemItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "RengokuTotemItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rengoku_totem_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/RengokuTotemItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChosoTotemItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choso_totem_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/ChosoTotemItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnnieMusic",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_music",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/jukebox_song/annie_music.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieMusicItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_music.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieMusic2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_music_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/jukebox_song/annie_music_2.json",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_music_2.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieMusic2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "AnnieASMR",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_asmr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieASMRItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_asmr.json",
+          "src/main/resources/data/anniepantsmod/jukebox_song/annie_asmr.json"
+        ]
+      }
+    },
+    {
+      "name": "RengokuTotem",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rengoku_totem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/renderer/RengokuTotemItemRenderer.java",
+          "src/main/resources/assets/anniepantsmod/models/item/rengoku_totem.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/model/RengokuTotemItemModel.java",
+          "src/main/java/net/mcreator/anniepantsmod/item/RengokuTotemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JaneDoeBodypillow",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jane_doe_bodypillow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/blockstates/jane_doe_bodypillow.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/JaneDoeBodypillowBlock.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/display/JaneDoeBodypillowDisplayItem.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/renderer/JaneDoeBodypillowDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/entity/JaneDoeBodypillowTileEntity.java",
+          "src/main/resources/assets/anniepantsmod/models/item/jane_doe_bodypillow.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/renderer/JaneDoeBodypillowTileRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/model/JaneDoeBodypillowBlockModel.java",
+          "src/main/resources/assets/anniepantsmod/models/custom/jane_doe_bodypillow_particle.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/model/JaneDoeBodypillowDisplayModel.java"
+        ]
+      }
+    },
+    {
+      "name": "JaneDoeBodypillowWall",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jane_doe_bodypillow_wall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/block/model/JaneDoeBodypillowWallDisplayModel.java",
+          "src/main/resources/assets/anniepantsmod/models/custom/jane_doe_bodypillow_wall_particle.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/renderer/JaneDoeBodypillowWallTileRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/renderer/JaneDoeBodypillowWallDisplayItemRenderer.java",
+          "src/main/resources/assets/anniepantsmod/models/item/jane_doe_bodypillow_wall.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/JaneDoeBodypillowWallBlock.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/display/JaneDoeBodypillowWallDisplayItem.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/entity/JaneDoeBodypillowWallTileEntity.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/model/JaneDoeBodypillowWallBlockModel.java",
+          "src/main/resources/assets/anniepantsmod/blockstates/jane_doe_bodypillow_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "JaneDoeBodypillowBlockIsPlaced",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jane_doe_bodypillow_block_is_placed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/JaneDoeBodypillowBlockIsPlacedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JaneDoeBodypillowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jane_doe_bodypillow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/jane_doe_bodypillow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HeadRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "head_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/head_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "KinkoLaptop",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinko_laptop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/block/renderer/KinkoLaptopDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/model/KinkoLaptopDisplayModel.java",
+          "src/main/resources/assets/anniepantsmod/blockstates/kinko_laptop.json",
+          "src/main/resources/assets/anniepantsmod/models/custom/kinko_laptop_particle.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/entity/KinkoLaptopTileEntity.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/renderer/KinkoLaptopTileRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/model/KinkoLaptopBlockModel.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/display/KinkoLaptopDisplayItem.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/KinkoLaptopBlock.java",
+          "src/main/resources/assets/anniepantsmod/models/item/kinko_laptop.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementPlush",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_plush",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_advancement_plush.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementShadowArmor",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_shadow_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_advancement_shadow_armor.json"
+        ]
+      }
+    },
+    {
+      "name": "KinkoLaptopIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinko_laptop_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/KinkoLaptopIconItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/kinko_laptop_icon.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementLaptop",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_laptop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_advancement_laptop.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementJaneDoeBodypillow",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_jane_doe_bodypillow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_advancement_jane_doe_bodypillow.json"
+        ]
+      }
+    },
+    {
+      "name": "JaneDoeBodypillowIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jane_doe_bodypillow_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/JaneDoeBodypillowIconItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/jane_doe_bodypillow_icon.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingWave",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_wave",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_wave.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingPortraitv2",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_portraitv_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_portraitv_2.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingFoodie",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_foodie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_foodie.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingBoating",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_boating",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_boating.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingAdventure",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_adventure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_adventure.json"
+        ]
+      }
+    },
+    {
+      "name": "KinkoLaptopClosed",
+      "type": "animatedblock",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinko_laptop_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/block/entity/KinkoLaptopClosedTileEntity.java",
+          "src/main/resources/assets/anniepantsmod/models/custom/kinko_laptop_closed_particle.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/renderer/KinkoLaptopClosedTileRenderer.java",
+          "src/main/resources/assets/anniepantsmod/blockstates/kinko_laptop_closed.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/display/KinkoLaptopClosedDisplayItem.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/KinkoLaptopClosedBlock.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/model/KinkoLaptopClosedBlockModel.java",
+          "src/main/resources/assets/anniepantsmod/models/item/kinko_laptop_closed.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/renderer/KinkoLaptopClosedDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/model/KinkoLaptopClosedDisplayModel.java"
+        ]
+      }
+    },
+    {
+      "name": "KinkoLaptopOpen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinko_laptop_open",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/KinkoLaptopOpenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KinkoLaptopClose",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinko_laptop_close",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/KinkoLaptopCloseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieAdvancementIconItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_advancement_icon.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementFullPower",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_full_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_advancement_full_power.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementMusic",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_music",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_advancement_music.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementIconPlushie",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_icon_plushie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/annie_advancement_icon_plushie.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieAdvancementIconPlushieItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementPlushKill",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_plush_kill",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_advancement_plush_kill.json"
+        ]
+      }
+    },
+    {
+      "name": "PlayerKillsAnniePlushEnemy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_kills_annie_plush_enemy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/PlayerKillsAnniePlushEnemyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerWearsShadowArmor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_wears_shadow_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/PlayerWearsShadowArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerHasShadowArmorAndTotems",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_has_shadow_armor_and_totems",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/PlayerHasShadowArmorAndTotemsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JschlattCube",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jschlatt_cube",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_cube.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/JschlattCubeBlock.java",
+          "src/main/resources/assets/anniepantsmod/models/item/jschlatt_cube.json",
+          "src/main/resources/data/anniepantsmod/loot_table/blocks/jschlatt_cube.json",
+          "src/main/resources/assets/anniepantsmod/blockstates/jschlatt_cube.json"
+        ]
+      }
+    },
+    {
+      "name": "JschlattStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jschlatt_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/block/JschlattStairsBlock.java",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_stairs.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_stairs_inner.json",
+          "src/main/resources/data/anniepantsmod/loot_table/blocks/jschlatt_stairs.json",
+          "src/main/resources/assets/anniepantsmod/models/item/jschlatt_stairs.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_stairs_outer.json",
+          "src/main/resources/assets/anniepantsmod/blockstates/jschlatt_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "JschlattSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jschlatt_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/block/JschlattSlabBlock.java",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_slab_top.json",
+          "src/main/resources/assets/anniepantsmod/models/item/jschlatt_slab.json",
+          "src/main/resources/assets/anniepantsmod/blockstates/jschlatt_slab.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_slab.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_slab_full.json",
+          "src/main/resources/data/anniepantsmod/loot_table/blocks/jschlatt_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "JschlattPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jschlatt_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_pressure_plate_down.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_pressure_plate.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/JschlattPressurePlateBlock.java",
+          "src/main/resources/assets/anniepantsmod/blockstates/jschlatt_pressure_plate.json",
+          "src/main/resources/assets/anniepantsmod/models/item/jschlatt_pressure_plate.json",
+          "src/main/resources/data/anniepantsmod/loot_table/blocks/jschlatt_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "JschlattDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jschlatt_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_door_top_left.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_door_top_left_open.json",
+          "src/main/resources/assets/anniepantsmod/models/item/jschlatt_door.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_door_bottom_left_open.json",
+          "src/main/resources/assets/anniepantsmod/blockstates/jschlatt_door.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_door_bottom_left.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_door_bottom_right.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_door_bottom_right_open.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_door_top_right.json",
+          "src/main/resources/data/anniepantsmod/loot_table/blocks/jschlatt_door.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_door_top_right_open.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/JschlattDoorBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "JschlattTrapDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jschlatt_trap_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/jschlatt_trap_door.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/JschlattTrapDoorBlock.java",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_trap_door.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_trap_door_open.json",
+          "src/main/resources/data/anniepantsmod/loot_table/blocks/jschlatt_trap_door.json",
+          "src/main/resources/assets/anniepantsmod/blockstates/jschlatt_trap_door.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_trap_door_top.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieVirusLaptopCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_virus_laptop_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_virus_laptop_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieCustomPaintingItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_custom_painting_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/annie_custom_painting_item.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieCustomPaintingItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnnieCustomPaintingRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "annie_custom_painting_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/AnnieCustomPaintingRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JaneDoe",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jane_doe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/entity/model/JaneDoeModel.java",
+          "src/main/resources/assets/anniepantsmod/models/item/jane_doe_spawn_egg.json",
+          "src/main/java/net/mcreator/anniepantsmod/entity/JaneDoeEntity.java",
+          "src/main/java/net/mcreator/anniepantsmod/client/renderer/JaneDoeRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Heartify",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heartify",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/heartify.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/HeartifyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BrokenHeartify",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_heartify",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/broken_heartify.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/BrokenHeartifyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VivifyAnnie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vivify_annie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/VivifyAnnieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JaneDoeFollowCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jane_doe_follow_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/JaneDoeFollowConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JaneDoeStayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jane_doe_stay_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/JaneDoeStayConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JaneDoeOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jane_doe_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/JaneDoeOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JschlattFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jschlatt_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/loot_table/blocks/jschlatt_fence.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/JschlattFenceBlock.java",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_fence_inventory.json",
+          "src/main/resources/assets/anniepantsmod/models/item/jschlatt_fence.json",
+          "src/main/resources/assets/anniepantsmod/blockstates/jschlatt_fence.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_fence.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_fence_post.json"
+        ]
+      }
+    },
+    {
+      "name": "JschlattFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jschlatt_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_fence_gate_open.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_fence_gate_wall_open.json",
+          "src/main/resources/assets/anniepantsmod/blockstates/jschlatt_fence_gate.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_fence_gate_wall.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_fence_gate.json",
+          "src/main/resources/assets/anniepantsmod/models/item/jschlatt_fence_gate.json",
+          "src/main/resources/data/anniepantsmod/loot_table/blocks/jschlatt_fence_gate.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/JschlattFenceGateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "VivifySchlatt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vivify_schlatt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/VivifySchlattProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SchlattParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schlatt_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/client/particle/SchlattParticleParticle.java",
+          "src/main/resources/assets/anniepantsmod/particles/schlatt_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "SchlattJuice",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schlatt_juice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/SchlattJuiceItem.java",
+          "src/main/java/net/mcreator/anniepantsmod/fluid/types/SchlattJuiceFluidType.java",
+          "src/main/java/net/mcreator/anniepantsmod/block/SchlattJuiceBlock.java",
+          "src/main/java/net/mcreator/anniepantsmod/fluid/SchlattJuiceFluid.java",
+          "src/main/resources/assets/anniepantsmod/models/block/schlatt_juice.json",
+          "src/main/resources/assets/anniepantsmod/blockstates/schlatt_juice.json",
+          "src/main/resources/assets/anniepantsmod/models/item/schlatt_juice_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "SchlattJuiceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "schlatt_juice_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/recipe/brewing/SchlattJuiceRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "JschlattCube2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jschlatt_cube_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_cube_2.json",
+          "src/main/resources/data/anniepantsmod/loot_table/blocks/jschlatt_cube_2.json",
+          "src/main/resources/assets/anniepantsmod/models/item/jschlatt_cube_2.json",
+          "src/main/java/net/mcreator/anniepantsmod/block/JschlattCube2Block.java",
+          "src/main/resources/assets/anniepantsmod/blockstates/jschlatt_cube_2.json"
+        ]
+      }
+    },
+    {
+      "name": "JschlattLight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jschlatt_light",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/block/JschlattLightBlock.java",
+          "src/main/resources/data/anniepantsmod/loot_table/blocks/jschlatt_light.json",
+          "src/main/resources/assets/anniepantsmod/models/item/jschlatt_light.json",
+          "src/main/resources/assets/anniepantsmod/models/block/jschlatt_light.json",
+          "src/main/resources/assets/anniepantsmod/blockstates/jschlatt_light.json"
+        ]
+      }
+    },
+    {
+      "name": "JaneDoe2",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jane_doe_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/entity/JaneDoe2Entity.java",
+          "src/main/resources/assets/anniepantsmod/models/item/jane_doe_2_spawn_egg.json",
+          "src/main/java/net/mcreator/anniepantsmod/entity/model/JaneDoe2Model.java",
+          "src/main/java/net/mcreator/anniepantsmod/client/renderer/JaneDoe2Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "VivificationCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vivification_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/crafting_table.json"
+        ]
+      }
+    },
+    {
+      "name": "VivificationDrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vivification_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/VivificationDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingBananner",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_bananner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_bananner.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingThing",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_thing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_thing.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingAnnies",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_annies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_annies.json"
+        ]
+      }
+    },
+    {
+      "name": "KinkoLaptopOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinko_laptop_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/KinkoLaptopOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScourgeTheHedgehogArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scourge_the_hedgehog_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/scourge_the_hedgehog_armor_boots.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/ScourgeTheHedgehogArmorItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/scourge_the_hedgehog_armor_leggings.json",
+          "src/main/resources/assets/anniepantsmod/models/item/scourge_the_hedgehog_armor_helmet.json",
+          "src/main/resources/assets/anniepantsmod/models/item/scourge_the_hedgehog_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "ScourgeTheHedgehogArmorSetBonus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scourge_the_hedgehog_armor_set_bonus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/ScourgeTheHedgehogArmorSetBonusProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerWearsScourgeArmor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_wears_scourge_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/PlayerWearsScourgeArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementScourgeArmor",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_scourge_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_advancement_scourge_armor.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementJaneDoe",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_jane_doe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_advancement_jane_doe.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementJaneDoe2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_jane_doe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_advancement_jane_doe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Jane1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jane_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/Jane1Item.java",
+          "src/main/resources/assets/anniepantsmod/models/item/jane_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Jane2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jane_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/jane_2.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/Jane2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingBeer",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_beer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_beer.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingValentines",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_valentines",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_valentines.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingFancy",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_fancy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/painting_variant/annie_painting_fancy.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieBananner",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "annie_bananner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/entity/AnnieBanannerEntity.java",
+          "src/main/java/net/mcreator/anniepantsmod/client/renderer/AnnieBanannerRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/entity/model/AnnieBanannerModel.java"
+        ]
+      }
+    },
+    {
+      "name": "AnnieBanannerRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "annie_bananner_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/AnnieBanannerRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementIconPosession",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_icon_posession",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieAdvancementIconPosessionItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_advancement_icon_posession.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieAdvancementIconBananners",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_advancement_icon_bananners",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieAdvancementIconBanannersItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_advancement_icon_bananners.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieBanannerVivify",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_bananner_vivify",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/advancement/annie_bananner_vivify.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieGGFlavor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_gg_flavor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieGGFlavorItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_gg_flavor.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieCupEmpty",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_cup_empty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieCupEmptyItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_cup_empty.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieCupFull",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_cup_full",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieCupFullItem.java",
+          "src/main/resources/assets/anniepantsmod/models/item/annie_cup_full.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieCupWater",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_cup_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/anniepantsmod/models/item/annie_cup_water.json",
+          "src/main/java/net/mcreator/anniepantsmod/item/AnnieCupWaterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnnieSuppsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_supps_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/recipe/brewing/AnnieSuppsRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "AnnieWaterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_water_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/recipe/brewing/AnnieWaterRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "AnnieRefreshmentEffectGS",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_refreshment_effect_gs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/potion/AnnieRefreshmentEffectGSMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "AnnieRefreshmentEffectWater",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_refreshment_effect_water",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/potion/AnnieRefreshmentEffectWaterMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "AnnieCupFullEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_cup_full_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/AnnieCupFullEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnnieCupWaterEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_cup_water_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/AnnieCupWaterEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KinkoLaptopProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinko_laptop_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/KinkoLaptopProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KinkoLaptopProcedureTwo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinko_laptop_procedure_two",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/KinkoLaptopProcedureTwoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GSGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gs_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/network/GSGuiButtonMessage.java",
+          "src/main/java/net/mcreator/anniepantsmod/client/gui/GSGuiScreen.java",
+          "src/main/java/net/mcreator/anniepantsmod/world/inventory/GSGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "GsGuiBuyCup",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gs_gui_buy_cup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/GsGuiBuyCupProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GSGuiBuyFlavor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gs_gui_buy_flavor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/GSGuiBuyFlavorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnnieScourgeHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_scourge_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_scourge_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieScourgeChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_scourge_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_scourge_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieScourgeLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_scourge_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_scourge_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AnnieScourgeBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_scourge_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_scourge_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePlushieCraftingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_plushie_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_plushie_crafting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AnniePaintingCraftingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annie_painting_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/anniepantsmod/recipe/annie_painting_crafting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Technopig",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "technopig",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/entity/model/TechnopigModel.java",
+          "src/main/java/net/mcreator/anniepantsmod/client/renderer/TechnopigRenderer.java",
+          "src/main/java/net/mcreator/anniepantsmod/entity/TechnopigEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "VivifyTechno",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vivify_techno",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/VivifyTechnoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnniePlushBlockBlockIsPlacedBy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "annie_plush_block_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/anniepantsmod/procedures/AnniePlushBlockBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "isswapping",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "annieattack",
+      "files": [
+        "hang_him_by_his_toes",
+        "im_slapping_him"
+      ],
+      "category": "hostile",
+      "subtitle": "Annie Plush Attack"
+    },
+    {
+      "name": "anniemusic",
+      "files": [
+        "zroslash_hot_pink_ft_anniepants02"
+      ],
+      "category": "record",
+      "subtitle": "ZroSlash ft AnniePants02 HOT PINK"
+    },
+    {
+      "name": "anniemusic2",
+      "files": [
+        "u7ewroshmqe4ffu9"
+      ],
+      "category": "record",
+      "subtitle": "AnniePants02 - ???"
+    },
+    {
+      "name": "anniedeath",
+      "files": [
+        "eaughhhhh",
+        "let_the_devil_out",
+        "we_playing_rivals"
+      ],
+      "category": "hostile",
+      "subtitle": "Annie Plush Dies"
+    },
+    {
+      "name": "laptopstep",
+      "files": [
+        "laptop_step01",
+        "laptop_step02",
+        "laptop_step03",
+        "laptop_step04",
+        "laptop_step05",
+        "laptop_step06",
+        "laptop_step07"
+      ],
+      "category": "player",
+      "subtitle": "Laptop Step"
+    },
+    {
+      "name": "laptopsmash",
+      "files": [
+        "laptop_smash"
+      ],
+      "category": "player",
+      "subtitle": "Laptop Smash"
+    },
+    {
+      "name": "laptopfall",
+      "files": [
+        "laptop_throw"
+      ],
+      "category": "player",
+      "subtitle": "Laptop Fall"
+    },
+    {
+      "name": "laptopplace",
+      "files": [
+        "laptop_place"
+      ],
+      "category": "player",
+      "subtitle": "Laptop Place"
+    },
+    {
+      "name": "annieasmrlist",
+      "files": [
+        "asmr1",
+        "asmr2",
+        "asmr3",
+        "asmr4",
+        "asmr5",
+        "asmr6",
+        "asmr7",
+        "asmr8",
+        "asmr9",
+        "asmr10",
+        "asmr11",
+        "asmr12",
+        "asmr13"
+      ],
+      "category": "record",
+      "subtitle": "AnniePants - ASMR Collection"
+    },
+    {
+      "name": "anniehurt",
+      "files": [
+        "disrespectful",
+        "hang_him_by_his_toes",
+        "i_felt_that_one",
+        "im_slapping_him",
+        "over_my_head",
+        "skipp",
+        "tf"
+      ],
+      "category": "hostile",
+      "subtitle": "Annie Plush Hurt"
+    },
+    {
+      "name": "annieidle",
+      "files": [
+        "bowwow",
+        "brazil",
+        "burp",
+        "future",
+        "laugh",
+        "pau_pau_pau",
+        "yoooo"
+      ],
+      "category": "hostile",
+      "subtitle": "Annie Plush Idle"
+    },
+    {
+      "name": "schlattwalk",
+      "files": [
+        "schlattwalk1",
+        "schlattwalk2",
+        "schlattwalk3"
+      ],
+      "category": "block",
+      "subtitle": "Schlatt block walk"
+    },
+    {
+      "name": "schlattplace",
+      "files": [
+        "schlattplace"
+      ],
+      "category": "neutral",
+      "subtitle": "Schlatt block place"
+    },
+    {
+      "name": "schlatthit",
+      "files": [
+        "schlatthit"
+      ],
+      "category": "block",
+      "subtitle": "Schlatt block hit"
+    },
+    {
+      "name": "schlattbreak",
+      "files": [
+        "schlattbreak"
+      ],
+      "category": "block",
+      "subtitle": "Schlatt block break"
+    },
+    {
+      "name": "schlattbucket",
+      "files": [
+        "mynameschlatt"
+      ],
+      "category": "neutral",
+      "subtitle": "Schlatt Bucket Empty"
+    },
+    {
+      "name": "banannerangry",
+      "files": [
+        "arar",
+        "mioowwen",
+        "wawa",
+        "wawi",
+        "wawwa",
+        "weown",
+        "wewenonow"
+      ],
+      "category": "hostile",
+      "subtitle": "Bananner Angry"
+    },
+    {
+      "name": "banannerdeath",
+      "files": [
+        "eooowww",
+        "waaawew",
+        "wanano",
+        "wao",
+        "wawawa",
+        "whew"
+      ],
+      "category": "hostile",
+      "subtitle": "Bannaner Dies"
+    },
+    {
+      "name": "banannerhurt",
+      "files": [
+        "aa",
+        "ga",
+        "hu",
+        "wa",
+        "waeow"
+      ],
+      "category": "hostile",
+      "subtitle": "Bananner Hurt"
+    },
+    {
+      "name": "bananneridle",
+      "files": [
+        "eeeooo",
+        "eo",
+        "euow",
+        "ewwowauau",
+        "kabawawow",
+        "mew",
+        "miw",
+        "waaiw",
+        "waaow",
+        "waeoeoeow",
+        "wawao",
+        "wawewew",
+        "weewooweewoo",
+        "wemana"
+      ],
+      "category": "hostile",
+      "subtitle": "Bananner Idling"
+    },
+    {
+      "name": "jd_idle",
+      "files": [
+        "jd_idle_01",
+        "jd_idle_02",
+        "jd_idle_03",
+        "jd_idle_04",
+        "jd_idle_05",
+        "jd_idle_06",
+        "jd_idle_07",
+        "jd_idle_08"
+      ],
+      "category": "hostile",
+      "subtitle": "Jane Doe idle"
+    },
+    {
+      "name": "jd_hurt",
+      "files": [
+        "jd_hit_01",
+        "jd_hit_02",
+        "jd_hit_03",
+        "jd_hit_04",
+        "jd_hit_05",
+        "jd_hit_06",
+        "jd_hit_07",
+        "jd_hit_08"
+      ],
+      "category": "hostile",
+      "subtitle": "Jane Doe hurt"
+    },
+    {
+      "name": "jd_death",
+      "files": [
+        "jd_death_01",
+        "jd_death_02",
+        "jd_death_03",
+        "jd_death_04",
+        "jd_death_05",
+        "jd_death_06"
+      ],
+      "category": "hostile",
+      "subtitle": "Jane Doe dies"
+    },
+    {
+      "name": "pig-hit",
+      "files": [
+        "pig_baby_hit1",
+        "pig_baby_hit2",
+        "pig_baby_hit3"
+      ],
+      "category": "neutral",
+      "subtitle": "Pig Hit"
+    },
+    {
+      "name": "pig-idle",
+      "files": [
+        "pig_idle1",
+        "pig_idle2",
+        "pig_idle3"
+      ],
+      "category": "neutral",
+      "subtitle": "Pig Idling"
+    },
+    {
+      "name": "pig-stepping",
+      "files": [
+        "step_step1.fsb",
+        "step_step2.fsb",
+        "step_step3.fsb",
+        "step_step4.fsb",
+        "step_step5.fsb"
+      ],
+      "category": "neutral",
+      "subtitle": "Pig Walk"
+    },
+    {
+      "name": "hi-schlatt",
+      "files": [
+        "annie_schlatt_hi"
+      ],
+      "category": "block",
+      "subtitle": "Annie says hi to Schlatt"
+    },
+    {
+      "name": "bananneridle2",
+      "files": [
+        "eeeooo",
+        "eo",
+        "euow",
+        "ewwowauau",
+        "kabawawow",
+        "mew",
+        "miw",
+        "waaiw",
+        "waaow",
+        "waeoeoeow",
+        "wawao",
+        "wawewew",
+        "weewooweewoo",
+        "wemana",
+        "dumpy"
+      ],
+      "category": "hostile",
+      "subtitle": "Bananner Idling"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:ScourgeTheHedgehogArmor.body",
+      "~CUSTOM:ShadowTheHedgehogArmor.body"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:SchlattJuice"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:Heartify"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:AnnieASMR",
+      "~CUSTOM:AnnieMusic2",
+      "~CUSTOM:AnnieMusic"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:JschlattLight",
+      "~CUSTOM:JschlattCube2",
+      "~CUSTOM:JschlattFenceGate",
+      "~CUSTOM:JschlattFence",
+      "~CUSTOM:JschlattTrapDoor",
+      "~CUSTOM:JschlattDoor",
+      "~CUSTOM:JschlattPressurePlate",
+      "~CUSTOM:JschlattSlab",
+      "~CUSTOM:JschlattStairs",
+      "~CUSTOM:JschlattCube"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:JschlattSlab"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:JschlattLight",
+      "~CUSTOM:JschlattCube2",
+      "~CUSTOM:JschlattFenceGate",
+      "~CUSTOM:JschlattFence",
+      "~CUSTOM:JschlattTrapDoor",
+      "~CUSTOM:JschlattDoor",
+      "~CUSTOM:JschlattPressurePlate",
+      "~CUSTOM:JschlattSlab",
+      "~CUSTOM:JschlattStairs",
+      "~CUSTOM:JschlattCube"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:JschlattFence"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:JschlattStairs"
+    ],
+    "BLOCKS:c:hidden_from_recipe_viewers": [
+      "CUSTOM:SchlattJuice"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:ScourgeTheHedgehogArmor.helmet",
+      "~CUSTOM:ShadowTheHedgehogArmor.helmet"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:ScourgeTheHedgehogArmor.boots",
+      "~CUSTOM:ShadowTheHedgehogArmor.boots"
+    ],
+    "ENTITIES:minecraft:illager": [
+      "~CUSTOM:AnniePlushEnemy"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:ScourgeTheHedgehogArmor.legs",
+      "~CUSTOM:ShadowTheHedgehogArmor.legs"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "painting.anniepantsmod.annie_painting_wave.title": "Annie Wave",
+      "subtitles.anniedeath": "Annie Plush Dies",
+      "advancements.annie_bananner_vivify.descr": "Bring a Bananner to life",
+      "item.anniepantsmod.kinko_laptop_icon": "Kinko Laptop Icon",
+      "painting.anniepantsmod.annie_painting_promo.title": "Annie GSupps Promo",
+      "advancements.annie_advancement_plush.title": "Pink doggo vtuber",
+      "advancements.annie_advancement_full_power.title": "The power of Annie",
+      "item.anniepantsmod.shadow_the_hedgehog_armor_helmet": "Shadow The Hedgehog Armor Helmet",
+      "item.anniepantsmod.annie_music": "Hot Pink",
+      "fluid_type.anniepantsmod.schlatt_juice": "Schlatt Juice",
+      "item.anniepantsmod.rengoku_totem": "Rengoku Totem",
+      "block.anniepantsmod.jschlatt_cube": "Jschlatt Cube",
+      "item.anniepantsmod.technopig_spawn_egg": "Technoblade Pig Spawn Egg",
+      "subtitles.bowwow": "bowwow",
+      "painting.anniepantsmod.annie_painting_adventure.author": "AndrewHG",
+      "block.anniepantsmod.schlatt_juice": "Schlatt Juice",
+      "subtitles.schlattplace": "Schlatt block place",
+      "advancements.annie_advancement_plush_kill.title": "Just sit there and look pretty",
+      "painting.anniepantsmod.annie_painting_beer.title": "Annie With Beer",
+      "painting.anniepantsmod.annie_painting_valentines.author": "Nyanmei",
+      "entity.anniepantsmod.jane_doe_2": "Jane Doe",
+      "entity.anniepantsmod.jane_doe": "Jane Doe",
+      "painting.anniepantsmod.annie_painting_thing.author": "Benchrace",
+      "painting.anniepantsmod.annie_painting_drink.author": "Eunriie",
+      "painting.anniepantsmod.annie_painting_duo.author": "nichijou_deyo",
+      "advancements.annie_advancement_shadow_armor.title": "I love latinas!",
+      "painting.anniepantsmod.annie_painting_annies.author": "Benchrace",
+      "item.anniepantsmod.annie_advancement_icon_bananners": "Annie Advancement Icon Bananners",
+      "subtitles.anniemusic": "ZroSlash ft AnniePants02 HOT PINK",
+      "subtitles.annie_hurt": "annie_hurt",
+      "subtitles.banannerhurt": "Bananner Hurt",
+      "item.anniepantsmod.annie_advancement_icon_posession": "Annie Advancement Icon Posession",
+      "painting.anniepantsmod.annie_painting_paranoid.title": "Annie Paranoid",
+      "subtitles.laugh": "laugh",
+      "painting.anniepantsmod.annie_painting_mischevious.author": "AndrewHG",
+      "advancements.annie_advancement_jane_doe.title": "Crumbs\u0027 dream",
+      "subtitles.pig-hit": "Pig Hit",
+      "painting.anniepantsmod.annie_painting_foodie.title": "Annie Foodie",
+      "painting.anniepantsmod.annie_painting_glitch.title": "Annie Glitchy",
+      "painting.anniepantsmod.annie_painting_bananner.author": "Unknown",
+      "subtitles.laptopstep": "Laptop Step",
+      "item.anniepantsmod.broken_heartify": "Broken Vivification Crystal",
+      "subtitles.banannerdeath": "Bannaner Dies",
+      "item.anniepantsmod.jane_doe_bodypillow_icon": "Jane Doe Bodypillow Icon",
+      "subtitles.laptopsmash": "Laptop Smash",
+      "painting.anniepantsmod.annie_painting_drink.title": "Annie Drinking",
+      "subtitles.jd_death": "Jane Doe dies",
+      "item.anniepantsmod.annie_plush_enemy_spawn_egg": "Posessed AnniePants02 plushie Spawn Egg",
+      "item.anniepantsmod.heartify": "Vivification Crystal",
+      "subtitles.schlattwalk": "Schlatt block walk",
+      "item.anniepantsmod.scourge_the_hedgehog_armor_boots": "Scourge The Hedgehog Armor Boots",
+      "painting.anniepantsmod.annie_painting_booze.title": "Annie Booze",
+      "painting.anniepantsmod.annie_painting_booze.author": "白色灯 (Hakusyokuto)",
+      "subtitles.schlattbreak": "Schlatt block break",
+      "block.anniepantsmod.kinko_laptop": "AnnieVirus\u0027s Laptop",
+      "advancements.annie_advancement_jane_doe_2.title": "Alternative found!",
+      "subtitles.bomb": "bomb",
+      "block.anniepantsmod.jschlatt_fence_gate": "Jschlatt Fence Gate",
+      "entity.anniepantsmod.annie_bananner": "Bananner",
+      "subtitles.deepd": "deepd",
+      "item_group.anniepantsmod.annie_creative_tab": "AnniePants02 Mod",
+      "gui.anniepantsmod.gs_gui.button_flavor": "Flavor",
+      "advancements.annie_advancement_music.descr": "Obtain AnniePants ASMR music disc",
+      "subtitles.annie_death": "annie_death",
+      "item.anniepantsmod.schlatt_juice_bucket": "Schlatt Juice Bucket",
+      "painting.anniepantsmod.annie_painting_foodie.author": "Benchrace",
+      "item.anniepantsmod.jane_doe_spawn_egg": "Jane Doe Spawn Egg",
+      "painting.anniepantsmod.annie_painting_boating.author": "AndrewHG",
+      "subtitles.laptopplace": "Laptop Place",
+      "subtitles.annie_attack": "annie_attack",
+      "block.anniepantsmod.jschlatt_slab": "Jschlatt Slab",
+      "painting.anniepantsmod.annie_painting_mischevious.title": "Annie Mischevious",
+      "subtitles.annie_idle": "annie_idle",
+      "item.anniepantsmod.annie_asmr.desc": "AnniePants - ASMR",
+      "painting.anniepantsmod.annie_painting_annies.title": "Annies",
+      "advancements.annie_advancement_scourge_armor.descr": "Obtain full Scourge The Hedgehog armor",
+      "item.anniepantsmod.jane_2": "Jane 2",
+      "advancements.annie_advancement_shadow_armor.descr": "Obtain full Shadow The Hedgehog armor",
+      "item.anniepantsmod.jane_1": "Jane 1",
+      "item.anniepantsmod.annie_pants_icon": "AnniePants02 Icon",
+      "subtitles.bananneridle": "Bananner Idling",
+      "item.anniepantsmod.annie_music_2": "???",
+      "subtitles.pig-idle": "Pig Idling",
+      "item.anniepantsmod.annie_asmr": "ASMR",
+      "subtitles.future": "future",
+      "painting.anniepantsmod.annie_painting_fancy.author": "voidlus",
+      "advancements.annie_bananner_vivify.title": "Companion",
+      "item.anniepantsmod.annie_gg_flavor": "AnniePants02 GS Flavor",
+      "subtitles.anniemusic2": "AnniePants02 - ???",
+      "block.anniepantsmod.jane_doe_bodypillow_wall": "Jane Doe Bodypillow Bent",
+      "block.anniepantsmod.jschlatt_stairs": "Jschlatt Stairs",
+      "subtitles.banannerangry": "Bananner Angry",
+      "subtitles.laptopfall": "Laptop Fall",
+      "effect.anniepantsmod.annie_refreshment_effect_water": "Water Refreshment",
+      "subtitles.thefuq": "thefuq",
+      "painting.anniepantsmod.annie_painting_adventure.title": "Annie Adventure",
+      "painting.anniepantsmod.annie_painting_wave.author": "Benchrace",
+      "subtitles.slappinghim": "slappinghim",
+      "entity.anniepantsmod.annie_plush_enemy": "Posessed AnniePants02 plushie",
+      "item.anniepantsmod.annie_cup_empty": "Empty AnniePants02 cup",
+      "item.anniepantsmod.annie_advancement_icon_plushie": "Annie Advancement Icon Plushie",
+      "subtitles.annieidle": "Annie Plush Idle",
+      "painting.anniepantsmod.annie_painting_valentines.title": "Annie Valentines Day",
+      "painting.anniepantsmod.annie_painting_look.author": "さとう(sdus1017)",
+      "item.anniepantsmod.annie_advancement_icon": "Annie Advancement Icon",
+      "block.anniepantsmod.jschlatt_door": "Jschlatt Door",
+      "advancements.annie_advancement_scourge_armor.title": "Ashura Glitch",
+      "subtitles.jd_hurt": "Jane Doe hurt",
+      "item.anniepantsmod.annie_cup_full": "AnniePants02 cup with flavor",
+      "subtitles.annieasmrlist": "AnniePants - ASMR Collection",
+      "advancements.annie_advancement_laptop.title": "You\u0027re gonna need this",
+      "subtitles.playrivals": "playrivals",
+      "advancements.annie_advancement_jane_doe_bodypillow.descr": "Obtain Jane Doe bodypillow",
+      "advancements.annie_advancement_full_power.descr": "Equip yourself with Scourge The Hedgehog armor with Rengoku and Choso totems",
+      "advancements.annie_advancement_plush.descr": "Obtain AnniePants02 plushie",
+      "item.anniepantsmod.annie_music.desc": "ZroSlash Ft. AnniePants02 - HOT PINK",
+      "block.anniepantsmod.jane_doe_bodypillow": "Jane Doe Bodypillow",
+      "item.anniepantsmod.scourge_the_hedgehog_armor_leggings": "Scourge The Hedgehog Armor Leggings",
+      "painting.anniepantsmod.annie_painting_glitch.author": "AndrewHG",
+      "painting.anniepantsmod.annie_painting_boating.title": "Annie Boating",
+      "effect.anniepantsmod.annie_refreshment_effect_gs": "Game Soup Refreshment",
+      "painting.anniepantsmod.annie_painting_portraitv_2.title": "Annie Portrait",
+      "subtitles.kinkolaptopstep": "Laptop Step",
+      "subtitles.bananneridle2": "Bananner Idling",
+      "item.anniepantsmod.annie_custom_painting_item": "Annie Painting",
+      "painting.anniepantsmod.annie_painting_techno.title": "Annie and Technoblade",
+      "subtitles.eaughhh": "eaughhh",
+      "subtitles.annieattack": "Annie Plush Attack",
+      "block.anniepantsmod.kinko_laptop_closed": "AnnieVirus\u0027s Laptop Closed",
+      "painting.anniepantsmod.annie_painting_bananner.title": "Annie With Bananner",
+      "subtitles.anniepants02zroslashhotpink": "ZroSlash Ft. AnniePants02 - HOT PINK",
+      "painting.anniepantsmod.annie_painting_vampire.author": "しゃもまい (Syafffu)",
+      "item.anniepantsmod.choso_totem": "Choso Totem",
+      "gui.anniepantsmod.gs_gui.button_cup": "Cup",
+      "item.anniepantsmod.annie_cup_water": "AnniePants02 cup with water",
+      "item.anniepantsmod.shadow_the_hedgehog_armor_leggings": "Shadow The Hedgehog Armor Leggings",
+      "item.anniepantsmod.annie_music_2.desc": "AnniePants02 - ???",
+      "block.anniepantsmod.jschlatt_pressure_plate": "Jschlatt Pressure Plate",
+      "item.anniepantsmod.scourge_the_hedgehog_armor_chestplate": "Scourge The Hedgehog Armor Chestplate",
+      "subtitles.anniehurt": "Annie Plush Hurt",
+      "painting.anniepantsmod.annie_painting_promo.author": "Cookiehana",
+      "advancements.annie_advancement_music.title": "I\u0027m sleeping good tonight!",
+      "block.anniepantsmod.annie_plush_block": "AnniePants02 Plushie",
+      "advancements.annie_advancement_jane_doe_2.descr": "Some prefer this version...",
+      "subtitles.pig-stepping": "Pig Walk",
+      "painting.anniepantsmod.annie_painting_thing.title": "Annie Thing",
+      "block.anniepantsmod.jschlatt_light": "Jschlatt Cube",
+      "subtitles.schlattbucket": "Schlatt Bucket Empty",
+      "item.anniepantsmod.shadow_the_hedgehog_armor_chestplate": "Shadow The Hedgehog Armor Chestplate",
+      "painting.anniepantsmod.annie_painting_techno.author": "Unknown",
+      "block.anniepantsmod.jschlatt_fence": "Jschlatt Fence Gate",
+      "painting.anniepantsmod.annie_painting_portrait.title": "Annie Mugshot",
+      "advancements.annie_advancement_jane_doe.descr": "Bring Jane Doe to life",
+      "painting.anniepantsmod.annie_painting_beer.author": "lalacchin",
+      "fluid.anniepantsmod.schlatt_juice": "Schlatt Juice",
+      "subtitles.schlatthit": "Schlatt block hit",
+      "painting.anniepantsmod.annie_painting_duo.title": "Annie Duo",
+      "subtitles.hi-schlatt": "Annie says hi to Schlatt",
+      "block.anniepantsmod.jschlatt_cube_2": "Jschlatt Cube",
+      "item.anniepantsmod.jane_doe_2_spawn_egg": "Jane Doe Spawn Egg",
+      "subtitles.jd_idle": "Jane Doe idle",
+      "advancements.annie_advancement_plush_kill.descr": "Kill Posessed AnniePants02 Plushie",
+      "item.anniepantsmod.annie_bananner_spawn_egg": "Bananner Spawn Egg",
+      "advancements.annie_advancement_laptop.descr": "Obtain a laptop for making Bananners content",
+      "painting.anniepantsmod.annie_painting_paranoid.author": "AndrewHG",
+      "block.anniepantsmod.jschlatt_trap_door": "Jschlatt Trap Door",
+      "subtitles.hanghim": "hanghim",
+      "subtitles.disrespectful": "disrespectful",
+      "painting.anniepantsmod.annie_painting_portraitv_2.author": "Benchrace",
+      "entity.anniepantsmod.technopig": "Technoblade Pig",
+      "painting.anniepantsmod.annie_painting_look.title": "Annie Look Strawberry Hair",
+      "item.anniepantsmod.scourge_the_hedgehog_armor_helmet": "Scourge The Hedgehog Armor Helmet",
+      "painting.anniepantsmod.annie_painting_fancy.title": "Annie Fancy",
+      "item.anniepantsmod.shadow_the_hedgehog_armor_boots": "Shadow The Hedgehog Armor Boots",
+      "painting.anniepantsmod.annie_painting_portrait.author": "Benchrace",
+      "painting.anniepantsmod.annie_painting_vampire.title": "Annie Vampire",
+      "advancements.annie_advancement_jane_doe_bodypillow.title": "Crumbs\u0027 wishlist item"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "anniepantsmod",
+    "modName": "AnniePants02 Mod",
+    "version": "1.0.0",
+    "description": "A mod revolving around vtuber AnniePants02 - the best pink paranoid doggo vtuber!",
+    "author": "Viper4K",
+    "websiteURL": "https://gamersupps.gg/?ref\u003ddumpy",
+    "license": "CC BY-NC-SA 4.0",
+    "serverSideOnly": false,
+    "modPicture": "thumbnail",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "AnniePants02 - being inspiration, face and theme of this mod, Mcreator - tool used to make this mod, Voidlus - Annie Fancy painting, Nyanmei - Annie Valentines Day painting, lalacchin - Annie Beer painting, nichijou_deyo - Annie Duo painting, Cookiehana - Annie Gsupps painting, Syafffu - Annie Vampire painting, Hakusyokuto - Annie Booze painting, Sdus1017 - Annie Look Strawberry Hair/Annie Look Glasses/Annie Look paintings, AndrewHG - Annie Adventure/Annie Boating/Annie Mischevious/Annie Glitchy/Annie Paranoid paintings, BenchRace - Annie Foodie/Annie Portrait/Annie Wave/Annie Mugshot/Annie Thing/Annies paintings, groube - YSM Jane Doe ZZZ model and animations (under CC BY-NC-SA 4.0), jschlatt - schlatt block texture and sound",
+    "modElementsPackage": "net.mcreator.anniepantsmod"
+  },
+  "mcreatorVersion": 202400452410
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "anniepantsmod:annie_advancement_icon_bananners"
+    },
+    "title": {
+      "translate": "advancements.annie_bananner_vivify.title"
+    },
+    "description": {
+      "translate": "advancements.annie_bananner_vivify.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "annie_bananner_vivify_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "anniepantsmod:annie_advancement_plush"
+}

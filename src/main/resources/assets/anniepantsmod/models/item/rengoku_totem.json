@@ -1,0 +1,6 @@
+{
+  "parent": "anniepantsmod:displaysettings/totem_of_rengoku",
+  "textures": {
+    "layer0": "anniepantsmod:item/rengoku"
+  }
+}

@@ -1,0 +1,50 @@
+/gamerule randomTickSpeed 9000
+/time set night
+/time set midnight
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative\
+/gamemode creative
+/give Dev comma
+/give Dev minecraft:command_block
+/gamemode survival
+/gamemode creative
+/give Dev command
+/give Dev minecraft:command_block
+/gamerule commandBlockOutput false
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/give Dev minecraft:debug_stick
+/gamemode survival
+/gamemode creative
+/effect give Dev minecraft:health_boost infinite 255 false
+/effect give Dev minecraft:saturation infinite 255 true
+/effect give Dev minecraft:health_boost infinite 255 true
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/effect clear Dev minecraft:health_boost
+/effect give Dev minecraft:absorption infinite 255 true
+/effect give Dev minecraft:instant_health infinite 255 true
+/give Dev minecraft:barrier
+/give Dev minecraft:command_block
+/give Dev barrie
+/give Dev barrier
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give Dev anniepantsmod:annie_cup_water
+/gamemode creative
+/time set day
+/gamerule doDaylightCycle false
+/gamerule doWeatherCycle false
+/effect clear Dev
+/gamemode survival
+/gamemode creative
+/time set day

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gray_dye"
+    },
+    "b": {
+      "item": "minecraft:glass_pane"
+    },
+    "c": {
+      "item": "minecraft:iron_nugget"
+    },
+    "d": {
+      "item": "anniepantsmod:annie_plush_block"
+    },
+    "e": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "id": "anniepantsmod:kinko_laptop",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:pink_wool"
+    },
+    "b": {
+      "item": "minecraft:bone"
+    },
+    "c": {
+      "item": "anniepantsmod:heartify"
+    },
+    "d": {
+      "item": "minecraft:cherry_planks"
+    }
+  },
+  "result": {
+    "id": "anniepantsmod:annie_plush_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "anniepantsmod:annie_advancement_icon"
+    },
+    "title": {
+      "translate": "advancements.annie_advancement_full_power.title"
+    },
+    "description": {
+      "translate": "advancements.annie_advancement_full_power.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "annie_advancement_full_power_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 150
+  },
+  "parent": "anniepantsmod:annie_advancement_scourge_armor"
+}

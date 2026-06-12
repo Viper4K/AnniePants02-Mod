@@ -1,0 +1,7 @@
+[
+  {"version":2},
+  {"recipe":"anniepantsmod:annie_shadow_recipe_helmet","recipeType":"minecraft:smithing","bookmarkType":"RECIPE"},
+  {"recipe":"anniepantsmod:annie_shadow_recipe_chestplate","recipeType":"minecraft:smithing","bookmarkType":"RECIPE"},
+  {"recipe":"anniepantsmod:annie_shadow_recipe_leggings","recipeType":"minecraft:smithing","bookmarkType":"RECIPE"},
+  {"recipe":"anniepantsmod:annie_shadow_recipe_boots","recipeType":"minecraft:smithing","bookmarkType":"RECIPE"}
+]

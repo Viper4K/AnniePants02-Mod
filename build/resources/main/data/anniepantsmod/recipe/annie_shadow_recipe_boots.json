@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:firework_rocket"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "anniepantsmod:annie_plush_block"
+  },
+  "result": {
+    "id": "anniepantsmod:shadow_the_hedgehog_armor_boots"
+  }
+}

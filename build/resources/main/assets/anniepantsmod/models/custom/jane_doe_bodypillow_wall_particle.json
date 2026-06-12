@@ -1,0 +1,7 @@
+
+{
+  "parent": "anniepantsmod:displaysettings/jane_doe_pillow_wall",
+  "textures": {
+    "particle": "anniepantsmod:block/jane_doe_pillow"
+  }
+}

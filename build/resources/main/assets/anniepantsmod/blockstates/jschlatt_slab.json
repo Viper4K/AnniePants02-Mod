@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "anniepantsmod:block/jschlatt_slab"
+    },
+    "type=top": {
+      "model": "anniepantsmod:block/jschlatt_slab_top"
+    },
+    "type=double": {
+      "model": "anniepantsmod:block/jschlatt_slab_full"
+    }
+  }
+}

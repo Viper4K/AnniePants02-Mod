@@ -1,0 +1,670 @@
+{
+  "annieattack": {
+    "subtitle": "subtitles.annieattack",
+    "sounds": [
+      {
+        "name": "anniepantsmod:hang_him_by_his_toes",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:im_slapping_him",
+        "stream": false
+      }
+    ]
+  },
+  "anniemusic": {
+    "subtitle": "subtitles.anniemusic",
+    "sounds": [
+      {
+        "name": "anniepantsmod:zroslash_hot_pink_ft_anniepants02",
+        "stream": true
+      }
+    ]
+  },
+  "anniemusic2": {
+    "subtitle": "subtitles.anniemusic2",
+    "sounds": [
+      {
+        "name": "anniepantsmod:u7ewroshmqe4ffu9",
+        "stream": true
+      }
+    ]
+  },
+  "anniedeath": {
+    "subtitle": "subtitles.anniedeath",
+    "sounds": [
+      {
+        "name": "anniepantsmod:eaughhhhh",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:let_the_devil_out",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:we_playing_rivals",
+        "stream": false
+      }
+    ]
+  },
+  "laptopstep": {
+    "subtitle": "subtitles.laptopstep",
+    "sounds": [
+      {
+        "name": "anniepantsmod:laptop_step01",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:laptop_step02",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:laptop_step03",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:laptop_step04",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:laptop_step05",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:laptop_step06",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:laptop_step07",
+        "stream": false
+      }
+    ]
+  },
+  "laptopsmash": {
+    "subtitle": "subtitles.laptopsmash",
+    "sounds": [
+      {
+        "name": "anniepantsmod:laptop_smash",
+        "stream": false
+      }
+    ]
+  },
+  "laptopfall": {
+    "subtitle": "subtitles.laptopfall",
+    "sounds": [
+      {
+        "name": "anniepantsmod:laptop_throw",
+        "stream": false
+      }
+    ]
+  },
+  "laptopplace": {
+    "subtitle": "subtitles.laptopplace",
+    "sounds": [
+      {
+        "name": "anniepantsmod:laptop_place",
+        "stream": false
+      }
+    ]
+  },
+  "annieasmrlist": {
+    "subtitle": "subtitles.annieasmrlist",
+    "sounds": [
+      {
+        "name": "anniepantsmod:asmr1",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr2",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr3",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr4",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr5",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr6",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr7",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr8",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr9",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr10",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr11",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr12",
+        "stream": true
+      },
+      {
+        "name": "anniepantsmod:asmr13",
+        "stream": true
+      }
+    ]
+  },
+  "anniehurt": {
+    "subtitle": "subtitles.anniehurt",
+    "sounds": [
+      {
+        "name": "anniepantsmod:disrespectful",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:hang_him_by_his_toes",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:i_felt_that_one",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:im_slapping_him",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:over_my_head",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:skipp",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:tf",
+        "stream": false
+      }
+    ]
+  },
+  "annieidle": {
+    "subtitle": "subtitles.annieidle",
+    "sounds": [
+      {
+        "name": "anniepantsmod:bowwow",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:brazil",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:burp",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:future",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:laugh",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:pau_pau_pau",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:yoooo",
+        "stream": false
+      }
+    ]
+  },
+  "schlattwalk": {
+    "subtitle": "subtitles.schlattwalk",
+    "sounds": [
+      {
+        "name": "anniepantsmod:schlattwalk1",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:schlattwalk2",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:schlattwalk3",
+        "stream": false
+      }
+    ]
+  },
+  "schlattplace": {
+    "subtitle": "subtitles.schlattplace",
+    "sounds": [
+      {
+        "name": "anniepantsmod:schlattplace",
+        "stream": false
+      }
+    ]
+  },
+  "schlatthit": {
+    "subtitle": "subtitles.schlatthit",
+    "sounds": [
+      {
+        "name": "anniepantsmod:schlatthit",
+        "stream": false
+      }
+    ]
+  },
+  "schlattbreak": {
+    "subtitle": "subtitles.schlattbreak",
+    "sounds": [
+      {
+        "name": "anniepantsmod:schlattbreak",
+        "stream": false
+      }
+    ]
+  },
+  "schlattbucket": {
+    "subtitle": "subtitles.schlattbucket",
+    "sounds": [
+      {
+        "name": "anniepantsmod:mynameschlatt",
+        "stream": false
+      }
+    ]
+  },
+  "banannerangry": {
+    "subtitle": "subtitles.banannerangry",
+    "sounds": [
+      {
+        "name": "anniepantsmod:arar",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:mioowwen",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wawa",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wawi",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wawwa",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:weown",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wewenonow",
+        "stream": false
+      }
+    ]
+  },
+  "banannerdeath": {
+    "subtitle": "subtitles.banannerdeath",
+    "sounds": [
+      {
+        "name": "anniepantsmod:eooowww",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:waaawew",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wanano",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wao",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wawawa",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:whew",
+        "stream": false
+      }
+    ]
+  },
+  "banannerhurt": {
+    "subtitle": "subtitles.banannerhurt",
+    "sounds": [
+      {
+        "name": "anniepantsmod:aa",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:ga",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:hu",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wa",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:waeow",
+        "stream": false
+      }
+    ]
+  },
+  "bananneridle": {
+    "subtitle": "subtitles.bananneridle",
+    "sounds": [
+      {
+        "name": "anniepantsmod:eeeooo",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:eo",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:euow",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:ewwowauau",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:kabawawow",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:mew",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:miw",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:waaiw",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:waaow",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:waeoeoeow",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wawao",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wawewew",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:weewooweewoo",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wemana",
+        "stream": false
+      }
+    ]
+  },
+  "jd_idle": {
+    "subtitle": "subtitles.jd_idle",
+    "sounds": [
+      {
+        "name": "anniepantsmod:jd_idle_01",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_idle_02",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_idle_03",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_idle_04",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_idle_05",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_idle_06",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_idle_07",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_idle_08",
+        "stream": false
+      }
+    ]
+  },
+  "jd_hurt": {
+    "subtitle": "subtitles.jd_hurt",
+    "sounds": [
+      {
+        "name": "anniepantsmod:jd_hit_01",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_hit_02",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_hit_03",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_hit_04",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_hit_05",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_hit_06",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_hit_07",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_hit_08",
+        "stream": false
+      }
+    ]
+  },
+  "jd_death": {
+    "subtitle": "subtitles.jd_death",
+    "sounds": [
+      {
+        "name": "anniepantsmod:jd_death_01",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_death_02",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_death_03",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_death_04",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_death_05",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:jd_death_06",
+        "stream": false
+      }
+    ]
+  },
+  "pig-hit": {
+    "subtitle": "subtitles.pig-hit",
+    "sounds": [
+      {
+        "name": "anniepantsmod:pig_baby_hit1",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:pig_baby_hit2",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:pig_baby_hit3",
+        "stream": false
+      }
+    ]
+  },
+  "pig-idle": {
+    "subtitle": "subtitles.pig-idle",
+    "sounds": [
+      {
+        "name": "anniepantsmod:pig_idle1",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:pig_idle2",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:pig_idle3",
+        "stream": false
+      }
+    ]
+  },
+  "pig-stepping": {
+    "subtitle": "subtitles.pig-stepping",
+    "sounds": [
+      {
+        "name": "anniepantsmod:step_step1.fsb",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:step_step2.fsb",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:step_step3.fsb",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:step_step4.fsb",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:step_step5.fsb",
+        "stream": false
+      }
+    ]
+  },
+  "hi-schlatt": {
+    "subtitle": "subtitles.hi-schlatt",
+    "sounds": [
+      {
+        "name": "anniepantsmod:annie_schlatt_hi",
+        "stream": false
+      }
+    ]
+  },
+  "bananneridle2": {
+    "subtitle": "subtitles.bananneridle2",
+    "sounds": [
+      {
+        "name": "anniepantsmod:eeeooo",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:eo",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:euow",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:ewwowauau",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:kabawawow",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:mew",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:miw",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:waaiw",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:waaow",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:waeoeoeow",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wawao",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wawewew",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:weewooweewoo",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:wemana",
+        "stream": false
+      },
+      {
+        "name": "anniepantsmod:dumpy",
+        "stream": false
+      }
+    ]
+  }
+}

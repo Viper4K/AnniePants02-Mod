@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left",
+  "textures": {
+    "particle": "anniepantsmod:block/jschlatt_cube",
+    "bottom": "anniepantsmod:block/jschlatt_cube",
+    "top": "anniepantsmod:block/jschlatt_cube"
+  },
+  "render_type": "solid"
+}

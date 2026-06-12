@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "anniepantsmod:block/jschlatt_cube2",
+    "up": "anniepantsmod:block/jschlatt_cube2",
+    "north": "anniepantsmod:block/jschlatt_cube2",
+    "east": "anniepantsmod:block/jschlatt_cube2",
+    "south": "anniepantsmod:block/jschlatt_cube2",
+    "west": "anniepantsmod:block/jschlatt_cube2",
+    "particle": "anniepantsmod:block/jschlatt_cube2"
+  },
+  "render_type": "solid"
+}

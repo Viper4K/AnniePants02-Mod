@@ -1,0 +1,8 @@
+{
+  "comparator_output": 5,
+  "description": {
+    "translate": "item.anniepantsmod.annie_music.desc"
+  },
+  "length_in_seconds": 140,
+  "sound_event": "anniepantsmod:anniemusic"
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "painting",
+  "definition": {
+    "texture": "annie_painting_adventure",
+    "width": 64,
+    "height": 32,
+    "title": "Annie Adventure",
+    "author": "AndrewHG"
+  }
+}

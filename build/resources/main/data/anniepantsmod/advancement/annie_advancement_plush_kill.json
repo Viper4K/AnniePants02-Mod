@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "anniepantsmod:annie_advancement_icon_plushie"
+    },
+    "title": {
+      "translate": "advancements.annie_advancement_plush_kill.title"
+    },
+    "description": {
+      "translate": "advancements.annie_advancement_plush_kill.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "annie_advancement_plush_kill_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "anniepantsmod:annie_advancement_plush"
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Water Refreshment",
+    "icon": "anniecupwater",
+    "color": {
+      "value": -3813894,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": true,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "MAX_ABSORPTION"
+        },
+        "amount": 2.0,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

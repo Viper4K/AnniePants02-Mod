@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "anniepantsmod:annie_music"
+    },
+    {
+      "item": "anniepantsmod:annie_music_2"
+    }
+  ],
+  "result": {
+    "id": "anniepantsmod:annie_asmr",
+    "count": 1
+  }
+}

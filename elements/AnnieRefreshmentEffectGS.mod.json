@@ -1,0 +1,63 @@
+{
+  "_fv": 73,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Game Soup Refreshment",
+    "icon": "anniecupfull",
+    "color": {
+      "value": -342563,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredByMilk": true,
+    "isProtectedByTotem": true,
+    "isCuredbyHoney": true,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "MOVEMENT_SPEED"
+        },
+        "amount": 0.01,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "SWIM_SPEED"
+        },
+        "amount": 0.01,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "MAX_ABSORPTION"
+        },
+        "amount": 16.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "BLOCK_BREAK_SPEED"
+        },
+        "amount": 0.02,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "SNEAKING_SPEED"
+        },
+        "amount": 0.01,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "MINING_EFFICIENCY"
+        },
+        "amount": 0.01,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

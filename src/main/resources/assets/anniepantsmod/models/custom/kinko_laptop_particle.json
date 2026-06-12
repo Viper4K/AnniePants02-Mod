@@ -1,0 +1,7 @@
+
+{
+  "parent": "anniepantsmod:displaysettings/kinko_laptop",
+  "textures": {
+    "particle": "anniepantsmod:block/laptop_block"
+  }
+}

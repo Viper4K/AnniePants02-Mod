@@ -1,0 +1,7 @@
+
+{
+  "parent": "anniepantsmod:displaysettings/anniepants02.plush",
+  "textures": {
+    "particle": "anniepantsmod:block/anniepants2.plush"
+  }
+}

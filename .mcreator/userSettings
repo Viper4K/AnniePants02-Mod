@@ -1,0 +1,16 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 0,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, AnniePantsMod]",
+      "[, AnniePantsMod, Resources (Gradle)]",
+      "[, AnniePantsMod, Resources (Gradle), C:\\Users\\K44Vi\\MCreatorWorkspaces\\anniepantsmod\\src\\main\\resources\\assets]",
+      "[, AnniePantsMod, Resources (Gradle), C:\\Users\\K44Vi\\MCreatorWorkspaces\\anniepantsmod\\src\\main\\resources\\assets, C:\\Users\\K44Vi\\MCreatorWorkspaces\\anniepantsmod\\src\\main\\resources\\assets\\anniepantsmod]",
+      "[, AnniePantsMod, Resources (Gradle), C:\\Users\\K44Vi\\MCreatorWorkspaces\\anniepantsmod\\src\\main\\resources\\assets, C:\\Users\\K44Vi\\MCreatorWorkspaces\\anniepantsmod\\src\\main\\resources\\assets\\anniepantsmod, C:\\Users\\K44Vi\\MCreatorWorkspaces\\anniepantsmod\\src\\main\\resources\\assets\\anniepantsmod\\sounds]",
+      "[, AnniePantsMod, Sounds]"
+    ]
+  }
+}

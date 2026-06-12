@@ -1,0 +1,6 @@
+{
+  "parent": "anniepantsmod:displaysettings/totem_of_choso",
+  "textures": {
+    "layer0": "anniepantsmod:item/choso"
+  }
+}

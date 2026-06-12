@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "anniepantsmod:scourge_the_hedgehog_armor_helmet"
+    },
+    "title": {
+      "translate": "advancements.annie_advancement_scourge_armor.title"
+    },
+    "description": {
+      "translate": "advancements.annie_advancement_scourge_armor.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "annie_advancement_scourge_armor_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "anniepantsmod:annie_advancement_plush"
+}

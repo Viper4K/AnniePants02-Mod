@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "anniepantsmod:jane_doe_bodypillow_icon"
+    },
+    "title": {
+      "translate": "advancements.annie_advancement_jane_doe_bodypillow.title"
+    },
+    "description": {
+      "translate": "advancements.annie_advancement_jane_doe_bodypillow.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "annie_advancement_jane_doe_bodypillow_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "anniepantsmod:jane_doe_bodypillow"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

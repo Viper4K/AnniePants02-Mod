@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "scourge_armor",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "anniepantsmod:shadow_the_hedgehog_armor_boots"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
+  ],
+  "result": {
+    "id": "anniepantsmod:scourge_the_hedgehog_armor_boots",
+    "count": 1
+  }
+}

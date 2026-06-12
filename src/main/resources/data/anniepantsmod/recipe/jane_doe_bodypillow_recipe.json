@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "cec"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gray_dye"
+    },
+    "b": {
+      "item": "minecraft:zombie_head"
+    },
+    "c": {
+      "item": "minecraft:black_dye"
+    },
+    "d": {
+      "item": "minecraft:white_wool"
+    },
+    "e": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "id": "anniepantsmod:jane_doe_bodypillow",
+    "count": 1
+  }
+}

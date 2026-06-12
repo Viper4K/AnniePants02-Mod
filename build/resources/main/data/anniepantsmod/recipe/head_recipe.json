@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:bone"
+  },
+  "base": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "addition": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "result": {
+    "id": "minecraft:zombie_head"
+  }
+}

@@ -1,0 +1,78 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.AnniePants2.plush.transform": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"Body": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 6, 0],
+						"1.0": [0, 6, 0]
+					}
+				},
+				"Head": {
+					"rotation": [0, 0, 0]
+				},
+				"Hairthingy": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [204.53922, -44.4, -160.41903]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [3, 0.5, 1]
+					}
+				},
+				"LeftLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [87.9, 34.9, 0.43]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [1.4, 0, 2]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-46.163, 46.85668, -93.88863]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [-3, 0.5, 1]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [87.9, -34.9, 0.43]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [-1.4, 0, 2]
+					}
+				}
+			}
+		},
+		"0": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"Body": {
+					"position": {
+						"0.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

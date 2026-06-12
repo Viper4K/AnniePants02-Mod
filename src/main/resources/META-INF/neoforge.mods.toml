@@ -1,0 +1,48 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="CC BY-NC-SA 4.0"
+
+[[mods]]
+modId="anniepantsmod"
+version="1.0.0"
+displayName="AnniePants02 Mod"
+displayURL="https://gamersupps.gg/?ref=dumpy"
+logoFile="logo.png"
+credits="AnniePants02 - being inspiration, face and theme of this mod, Mcreator - tool used to make this mod, Voidlus - Annie Fancy painting, Nyanmei - Annie Valentines Day painting, lalacchin - Annie Beer painting, nichijou_deyo - Annie Duo painting, Cookiehana - Annie Gsupps painting, Syafffu - Annie Vampire painting, Hakusyokuto - Annie Booze painting, Sdus1017 - Annie Look Strawberry Hair/Annie Look Glasses/Annie Look paintings, AndrewHG - Annie Adventure/Annie Boating/Annie Mischevious/Annie Glitchy/Annie Paranoid paintings, BenchRace - Annie Foodie/Annie Portrait/Annie Wave/Annie Mugshot/Annie Thing/Annies paintings, groube - YSM Jane Doe ZZZ model and animations (under CC BY-NC-SA 4.0), jschlatt - schlatt block texture and sound"
+authors="Viper4K"
+description="A mod revolving around vtuber AnniePants02 - the best pink paranoid doggo vtuber!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.anniepantsmod]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.65,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.anniepantsmod]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.anniepantsmod]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.anniepantsmod]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

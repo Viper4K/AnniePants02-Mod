@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "anniepantsmod:heartify"
+  },
+  "result": {
+    "id": "anniepantsmod:broken_heartify",
+    "count": 1
+  }
+}

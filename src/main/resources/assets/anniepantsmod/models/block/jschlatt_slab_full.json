@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "anniepantsmod:block/jschlatt_cube",
+    "bottom": "anniepantsmod:block/jschlatt_cube",
+    "top": "anniepantsmod:block/jschlatt_cube",
+    "side": "anniepantsmod:block/jschlatt_cube"
+  },
+  "render_type": "solid"
+}

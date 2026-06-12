@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "anniepantsmod:custom/kinko_laptop_particle"
+    },
+    "facing=east": {
+      "model": "anniepantsmod:custom/kinko_laptop_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "anniepantsmod:custom/kinko_laptop_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "anniepantsmod:custom/kinko_laptop_particle",
+      "y": 270
+    }
+  }
+}

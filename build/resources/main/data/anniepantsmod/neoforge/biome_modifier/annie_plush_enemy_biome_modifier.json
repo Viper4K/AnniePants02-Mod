@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "cherry_grove",
+    "flower_forest"
+  ],
+  "spawners": {
+    "type": "anniepantsmod:annie_plush_enemy",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

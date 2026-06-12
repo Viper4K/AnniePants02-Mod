@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#8"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "Items.DYE#8"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "CUSTOM:AnniePlushBlock"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.DYE#8"
+      },
+      {
+        "value": "Items.REPEATER"
+      },
+      {
+        "value": "Items.DYE#8"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KinkoLaptop"
+    },
+    "name": "annie_virus_laptop_craft",
+    "namespace": "mod"
+  }
+}

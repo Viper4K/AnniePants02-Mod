@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "painting",
+  "definition": {
+    "texture": "annie_painting_thing",
+    "width": 24,
+    "height": 48,
+    "title": "Annie Thing",
+    "author": "Benchrace"
+  }
+}

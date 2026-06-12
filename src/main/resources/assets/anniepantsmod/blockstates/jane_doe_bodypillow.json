@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "anniepantsmod:custom/jane_doe_bodypillow_particle"
+    },
+    "facing=east": {
+      "model": "anniepantsmod:custom/jane_doe_bodypillow_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "anniepantsmod:custom/jane_doe_bodypillow_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "anniepantsmod:custom/jane_doe_bodypillow_particle",
+      "y": 270
+    }
+  }
+}

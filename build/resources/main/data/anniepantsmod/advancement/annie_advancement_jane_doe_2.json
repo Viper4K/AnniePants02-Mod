@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "anniepantsmod:jane_2"
+    },
+    "title": {
+      "translate": "advancements.annie_advancement_jane_doe_2.title"
+    },
+    "description": {
+      "translate": "advancements.annie_advancement_jane_doe_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "annie_advancement_jane_doe_2_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "anniepantsmod:annie_advancement_jane_doe_bodypillow"
+}
